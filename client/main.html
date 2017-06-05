@@ -1,0 +1,19 @@
+<head>
+  <title>mongo</title>
+</head>
+
+<body>
+  <div class="conteiner" ng-app="mongo">
+      <div ng-controller="toDoController">
+      <header>
+  <h1>Todo List</h1>
+</header>
+<ul>
+  <li ng-repeat="task in tasks">
+    {{task.text}} 
+  </li>
+</ul>
+      </div>        
+  </div>
+
+</body>
